@@ -15,11 +15,11 @@ body {
 footer {
     width: 1310px auto;
     font-size: 90%;
-    color: rgba(255, 255, 255, 0.342);
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: black;
+    color: #fff;
     margin-top: 870px;
 }
 
