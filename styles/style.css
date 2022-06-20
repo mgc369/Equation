@@ -1,0 +1,120 @@
+body {
+    /*background-color: rgba(0, 0, 0, 0.699);*/
+    background-color: rgb(136, 136, 136);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#problem {
+    font-size: 170%;
+    margin-left: 720px;
+    margin-top: -600px;
+    position: absolute;
+}
+
+#input {
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 60%;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+p {
+    height: 10px;
+}
+
+#but {
+    background-color: white;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 120px;
+    text-align: center;
+    max-width: 100px;
+    border: gray 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+#but:hover, #but:active {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/*input {
+    margin-top: 8px;
+    margin-left: 60px;
+}*/
+
+.yes {
+    font-weight: bold;
+    width: 250px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    animation-duration: 1s;
+}
+
+.no {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    max-width: 290.5px;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: red;
+}
+
+#zokr {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+    margin-top: -7px;
+    margin-left: 285px;
+}
+
+#zakr {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+    margin-top: -6px;
+    margin-left: 220px;
+}
+
+#revice {
+    color: rgba(0, 0, 255, 0.747);
+    text-decoration: underline;
+}
+
+footer {
+    width: 1310px auto;
+    font-size: 90%;
+    /*color: rgba(255, 255, 255, 0.342);*/
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    /*background-color: rgba(0, 0, 0, 0.568);*/
+    background-color: black;
+    color: #fff;
+    margin-top: 915px;
+}
+
+#lab {
+    margin-top: 20px;
+}
+
+.nou {
+    display: none;
+}

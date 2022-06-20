@@ -1,0 +1,69 @@
+body {
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#problem {
+    font-size: 180%;
+    margin-left: 15px;
+    margin-top: -600px;
+    position: absolute;
+}
+
+footer {
+    width: 1310px auto;
+    font-size: 90%;
+    color: rgba(255, 255, 255, 0.342);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin-top: 870px;
+}
+
+#but {
+    background-color: white;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 120px;
+    text-align: center;
+    max-width: 100px;
+    border: gray 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+#zokr {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+    margin-top: -7px;
+    margin-left: 265px;
+}
+
+#zakr {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 55%;
+    margin-top: -6px;
+    margin-left: 230px;
+}
+
+.yes {
+    font-weight: bold;
+    width: 265px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    animation-duration: 1s;
+}
